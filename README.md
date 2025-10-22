@@ -10,4 +10,20 @@
 ![puzzle3_E](https://github.com/user-attachments/assets/93a622e7-009d-405c-9579-2abc3e0e1b5c)
 ![puzzle3_F](https://github.com/user-attachments/assets/e158a4fd-ea6b-4737-beb2-2e3db5a74a92)
 
-  
+  <style>
+  section.container {
+    display: flex;
+  }
+  section div.flex-item {
+    flex: 1;
+    text-align: center;
+    background-color: plum;
+    margin: 5px;
+    padding: 5px;
+  }
+</style>
+<section class="container">
+  <div class="flex-item">![puzzle3_A](https://github.com/user-attachments/assets/3c1ad294-0f46-4587-aa1b-dbc50bbb45c4)</div>
+  <div class="flex-item">Item 2</div>
+  <div class="flex-item">Item 3</div>
+</section>
