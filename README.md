@@ -1,6 +1,7 @@
 # Monte-Puzzle-Fish
 <!DOCTYPE html>
-
+<head>
+  <title>Monte's snowman</title>
  <style>
   section.snow-container {
     display: grid;
@@ -57,6 +58,40 @@
    }
    .hidden {
      display: none;
-     
-       
+   }    
 </style> 
+</head>
+
+<body>
+  <section class="grid-container">
+    <div class="grid-item1"> Monte Lodahl</div>
+    <div class="grid-item2">
+      <section class="grid-puzzle">
+        <div class="flex-puzzle">
+          <section class="snow-container">
+            <div class="flex-item"><img src="puzzle2_K.jpg"></div>
+            <div class="flex-item"><img src="puzzle2_M.jpg" ></div>
+            <div class="flex-item"><img src="puzzle2_E.jpg" ></div>
+            <div class="flex-item"><img src="puzzle2_G.jpg"></div>
+
+            <div class="flex-item"><img src="puzzle2_A.jpg"></div>
+            <div class="flex-item"><img src="puzzle2_D.jpg"></div>
+            <div class="flex-item"><img src="puzzle2_L.jpg"></div>
+            <div class="flex-item"><img src="puzzle2_B.jpg"></div>
+
+            <div class="flex-item"><img src="puzzle2_F.jpg"></div>
+            <div class="flex-item"><img src="puzzle2_J.jpg"></div>
+            <div class="flex-item"><img src="puzzle2_H.jpg"></div>
+            <div class="flex-item"><img src="puzzle2_I.jpg"></div>
+
+            <div class="flex-item hidden"><img src="puzzle2_C.jpg"></div>
+          </section>
+        </div>
+        <div class="flex-puzzle"> Snowmen Puzzle: A picture of two snowmen on a capped mountain.</div>
+      </section>
+      </div>
+      <div class="grid-item3">October 23 2025</div>
+  </section>
+</body>
+</html>
+
